@@ -47,7 +47,7 @@ function calculateTime() {
 
 export default function Stopwatch() {
   let [timer, setTimer] = useState({
-    // millis: "00",
+    millis: "00",
     secs: "00",
     mins: "00",
     hours: "00",
